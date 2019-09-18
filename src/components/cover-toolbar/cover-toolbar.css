@@ -1,0 +1,253 @@
+.arrival-container{
+    display: inline-block;
+    height: 60px;
+    width: 44%;
+    margin: 8px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.arrival-input{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.308);
+}
+.going-input{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.arrival-text{
+    margin: 16px 40px;
+    opacity: 0.5;
+    font-weight: 500;
+}
+.going-text{
+    margin: 16px 45px;
+    opacity: 0.5;
+    font-weight: 500;
+}
+.airport-icon{
+    position: absolute;
+    opacity: 0.7;
+    margin: 20px 10px;
+    width: 20px;
+}
+.location-icon{
+    position: absolute;
+    opacity: 0.7;
+    margin: 20px;
+    width: 20px;
+}
+.swap-icon{
+    position: absolute;
+    width: 30px;
+    left: 100%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.flight-container{
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+    width:28%;
+    margin: 8px 8px 8px 0px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.date-container{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.411);
+}
+.date-text{
+    margin: 18px 0 0 40px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.date-text-active{
+    position: absolute;
+    font-size: 14px;
+    margin: 5px 0 0 40px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.date-text-sec{
+    position: absolute;
+    margin: 25px 40px;
+}
+.calendar-icon{
+    position: absolute;
+    padding: 20px 10px;
+    width: 18px;
+}
+.return-container{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+}
+.return-text{
+    margin: 18px 0px 0 40px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.return-text-active{
+    font-size: 14px;
+    margin: 5px 0 0 40px;
+    font-weight: 500;
+    opacity: 1;
+}
+.adult-container{
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+    width:12%;
+    right: 155px;
+    margin: 8px 8px 8px 0px;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.search-button{
+    display: inline-block;
+    position: absolute;
+    margin: 8px;
+    right: 5px;
+    height: 60px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0CC024;
+    box-shadow: 0px 4px 2px rgb(53, 105, 29);
+}
+.search-button:hover{
+    transform: translateY(1px);
+}
+.user-icon{
+    position: absolute;
+    padding: 22px 13px;
+    width: 13px;
+    opacity: 0.7;
+}
+.adult-text{
+    margin: 18px 0 0 35px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.adult-drop{
+    position: absolute;
+    width: 12px;
+    top: 45%;
+    right: 10px;
+}
+.search-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.date-picker{
+    display: none;
+}
+.timeContainer{
+    position: absolute;
+    top: 62px;
+    background: #fff;
+    height: 120px;
+    width: 280px;
+    box-shadow: 0px 4px 5px rgb(134, 134, 134);
+}
+.hour{
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    padding: 20px;
+}
+.minute{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+.colon{
+    font-size: 20px;
+    font-weight: 500;
+}
+.date-hour{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.date-minute{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.date-hour:hover{
+    background: #09AFEE;
+    color: #fff;
+}
+.date-minute:hover{
+    background: #09AFEE;
+    color: #fff;
+}
+.done{
+    position: absolute;
+    font-weight: 500;
+    color: #3B9BCC;
+    font-size: 18px;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.hour-list-container{
+    position: absolute;
+    height: 300px;
+    width: 50px;
+    border: 1px solid black;
+    background: #fff;
+    top: 70px;
+    left: 65px;
+    overflow-y: scroll;
+}
+.minute-list-container{
+    position: absolute;
+    height: 300px;
+    width: 50px;
+    border: 1px solid black;
+    background: #fff;
+    top: 70px;
+    right: 75px;
+    overflow-y: scroll;
+}
+.hour-item{
+    cursor: pointer;
+    padding: 3px;
+    font-size: 18px;
+}
+.hour-item-disabled{
+    background: rgba(128, 128, 128, 0.527);
+    cursor: no-drop;
+    padding: 3px;
+    font-size: 18px;
+}
+.hour-item:hover{
+    background: #09AFEE;
+    color: #fff;
+}
